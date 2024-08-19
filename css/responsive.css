@@ -1,0 +1,43 @@
+@media screen and (max-width:768px){
+  div#header {
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  div#header h1 {
+    
+  grid-column: 2;
+  justify-self: auto;
+  }
+  div#header div {
+    display: none;
+  }
+  div#header ul {
+    font-size: 0;
+    background-image: url(../img/ham.svg);
+    background-repeat: no-repeat;
+    grid-column: 1;
+    grid-row: 1;
+    align-self: center;
+    width: 40px;
+  }
+  div#header ul li a {
+  
+  }
+  section#title div.tAni div.title a img {
+    display: none;
+  }
+  section#title div.tAni {
+    background-image: url(../img/retitle.png);
+    height: 680px;
+  }
+  section#title .slick-dots {
+    display: none;
+  }
+  section#title .slick-prev::before {
+    display: none;
+  }
+  section#title .slick-next::before {
+    display: none;
+  }
+}
